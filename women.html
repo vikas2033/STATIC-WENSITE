@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== fontawesome =============== -->
+      <script src="https://kit.fontawesome.com/b544f26d5d.js" crossorigin="anonymous"></script>
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="./assets/css/nav.css">
+      <link rel="stylesheet" href="./assets/css/slide.css">
+      <link rel="stylesheet" href="./assets/css/product.css">
+      <link rel="stylesheet" href="./assets/css/login.css">
+      <link rel="stylesheet" href="./assets/css/footer.css">
+      <link rel="stylesheet" href="./assets/css/ourservice.css">
+      <title>MEN PAGE</title>
+      <style>
+
+      /*  */
+      .cover {
+         position: relative;
+         padding: 10px 50px;
+         margin-top: 100px;
+         margin: 0px  40px;
+      }
+      .left,.left1,.left2 {
+         position: absolute;
+         left: 0;
+         top: 50%;
+         transform: translateY(-50%);
+      }
+
+      .right,.right1,.right2 {
+         position: absolute;
+         right: 0;
+         top: 50%;
+         transform: translateY(-50%);
+      }
+
+      .scroll-images,.scroll-images1,.scroll-images2{
+         display: flex;
+         position: relative;
+         width: 100%;
+         height: auto;
+         display: flex;
+         flex-wrap: nowrap;
+         overflow-x: hidden;
+         overflow-y: hidden;
+         scroll-behavior: smooth;
+         -webkit-overflow-scrolling: touch;
+      }
+     
+      .scroll-images2::-webkit-scrollbar,.scroll-images1::-webkit-scrollbar,.scroll-images2::-webkit-scrollbar{
+         width: 5px;
+         height: 8px;
+         background-color: #aaa;
+      }
+      .scroll-images::-webkit-scrollbar-thumb,.scroll-images1::-webkit-scrollbar-thumb,.scroll-images2::-webkit-scrollbar-thumb{
+         background-color: black;
+      }
+      .cover>button{
+         background-color: transparent;
+         border: none;
+         outline: none;
+         cursor: pointer;
+         font-size: 25px;
+      }
+      /* scroll bar product*/
+      .product-card {
+         background-color: #fff;
+         border-radius: 8px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         overflow: hidden;
+         margin: 7px;
+         width: 250px;
+         height:480px;
+      }
+
+      .product-card img {
+         width: 250px;
+         height: 340px;
+         display: block;
+      }
+
+      .product-card .product-info {
+         padding: 20px;
+      }
+
+      .product-card .product-info h2 {
+         font-size: 18px;
+         margin-bottom: 10px;
+      }
+
+      .product-card .product-info p {
+         font-size: 12px;
+         color: #777;
+      }
+
+      .product-card .product-info .price {
+         font-size: 1rem;
+         font-weight: bold;
+         color: #333;
+         margin-top: 10px;
+      }
+
+      .product-info div>span>button{
+         width: 100px;
+         padding: 5px 2px;
+         background-color: #000000;
+         color: white;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+         transition: background-color 0.3s;
+         margin-top: 17px;
+      }
+      .product-info div>span>button:hover{
+         background-color: #0c82f8;
+      }
+      
+      </style>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo"><img src="./assets/img/WhatsApp Image 2024-04-24 at 16.22.11_5ded8c9d.jpg" style="height: 40px;" alt="logo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="index.html" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="men.html" class="nav__link">Men</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="women.html" class="nav__link">Women</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="newarival.html" class="nav__link">New Arrivals</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__actions">
+               <!-- Search button -->
+               <i class="ri-search-line nav__search" id="search-btn"></i>
+
+               <!-- Login button -->
+               <i class="ri-user-line nav__login" id="login-btn"></i>
+
+               <i class="fa-regular fa-heart nav_heart" id="like-btn"></i>
+
+               <i class="fa-solid fa-bag-shopping nav_shopping" id="carts-btn"></i>
+               <!-- <span class="quantity"><p>0</p></span> -->
+
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you looking for?" class="search__input">
+         </form>
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+      <!--==================== LOGIN ====================-->
+      <div class="login" id="login">
+         <section class="forms">
+            <div class="form login1">
+               <div class="form-content">
+                  <div class="title">Login</div>
+                  <form action="#">
+                     <div class="field input-field">
+                           <input type="email" placeholder="Email" class="input">
+                     </div>
+
+                     <div class="field input-field">
+                           <input type="password" placeholder="Password" class="password">
+                           <i class='bx bx-hide eye-icon'></i>
+                     </div>
+
+                     <div class="form-link">
+                           <a href="ForgotPassword.html" class="forgot-pass">Forgot password?</a>
+                     </div>
+
+                     <div class="field button-field">
+                           <button>Login</button>
+                     </div>
+                  </form>
+
+                  <div class="form-link">
+                     <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                  </div>
+               </div>
+
+               <div class="line"></div>
+
+               <div class="media-options">
+                  <a href="#" class="field facebook">
+                     <img src="./assets/img/facebook.png" alt="hbhbh" class="facebook-img">
+                     <span>Login with Facebook</span>
+                  </a>
+               </div>
+
+               <div class="media-options">
+                  <a href="#" class="field google">
+                     <img src="./assets/img/google.png" alt="hbhbh" class="facebook-img">
+                     <span>Login with Google</span>
+                  </a>
+               </div>
+
+         </div>
+
+         <!-- Signup Form -->
+
+         <div class="form signup">
+               <div class="form-content">
+                  <div class="title">Signup</div>
+                  <form action="#">
+                     <div class="field input-field">
+                           <input type="email" placeholder="Email" class="input">
+                     </div>
+
+                     <div class="field input-field">
+                           <input type="password" placeholder="Create password" class="password">
+                     </div>
+
+                     <div class="field input-field">
+                           <input type="password" placeholder="Confirm password" class="password">
+                           <i class='bx bx-hide eye-icon'></i>
+                     </div>
+
+                     <div class="field button-field">
+                           <button>Signup</button>
+                     </div>
+                  </form>
+
+                  <div class="form-link">
+                     <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                  </div>
+               </div>
+
+               <div class="line"></div>
+
+               <div class="media-options">
+                  <a href="#" class="field facebook">
+                     <img src="./assets/img/facebook.png" alt="" class="facebook-img">
+                     <span>Login with Facebook</span>
+                  </a>
+               </div>
+
+               <div class="media-options">
+                  <a href="#" class="field google">
+                     <img src="./assets/img/google.png" alt="" class="google-img">
+                     <span>Login with Google</span>
+                  </a>
+               </div>
+
+         </div>
+      </section>
+         <i class="ri-close-line login__close" id="login-close"></i>
+      </div>
+      <script src="./assets/js/login.js"></script>
+
+      <!--==================== like ====================-->
+      <div class="like" id="like">
+
+         <i class="ri-close-line login__close" id="like-close"></i>
+      </div>
+      <!--==================== cards ====================-->
+      <div class="carts" id="carts">
+         <div class="container">
+            <div class="cart">
+               <section class="container content-section">
+                  <h2 class="section-header">CART</h2>
+                  <div class="cart-row">
+                      <span class="cart-item cart-header cart-column">ITEM</span>
+                      <span class="cart-price cart-header cart-column">PRICE</span>
+                      <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                  </div>
+                  <div class="cart-items">
+                  </div>
+                  <div class="cart-total">
+                      <strong class="cart-total-title">Total</strong>
+                      <span class="cart-total-price">$0</span>
+                  </div>
+                  <button class="btn-purchase" type="button">PURCHASE</button>
+               </section>
+            </div>
+        </div>
+         <i class="ri-close-line login__close" id="carts-close"></i>
+      </div>
+      <script src="./assets/js/main.js"></script>
+      <!--==================== MAIN ====================-->
+      <section class="main">
+         <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./assets/img/Women-clothing-banner-desktop-view_28_07_2023_1920x475.jpg" style="width:100%; cursor: pointer;">
+                <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="./assets/img/jeans-banner-desktop-view_09_03_2024_1920x475.jpg" style="width:100%; cursor: pointer;">
+                <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="./assets/img/Plain-tshirt-desktop-view.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+               <img src="./assets/img/Satin-shirt-categry-banner-desktop-view_08_04_2024.jpg" style="width:100%;cursor: pointer;">
+               <div class="text">Caption Three</div>
+           </div>
+
+           <div class="mySlides fade">
+               <img src="./assets/img/Cargo-joggers-banner-desktop-view_15_02_2024.jpg" style="width:100%;cursor: pointer;">
+               <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onClick="plusSlides(-1)"><</a>
+            <a class="next" onClick="plusSlides(1)">></a>
+            
+        
+         </div>
+
+         <br>   
+         <div style="text-align:center">
+               <span class="dot" onClick="currentSlide(1)"></span>
+               <span class="dot" onClick="currentSlide(2)"></span>
+               <span class="dot" onClick="currentSlide(3)"></span>
+               <span class="dot" onClick="currentSlide(4)"></span>
+               <span class="dot" onClick="currentSlide(5)"></span>
+         </div>
+            <!--=============== MAIN JS ===============-->
+         <script>
+               let slideIndex = 1;
+               showSlides(slideIndex);
+               
+               function plusSlides(n) {
+               showSlides(slideIndex += n);
+               }
+               
+               function currentSlide(n) {
+               showSlides(slideIndex = n);
+               }
+               
+               function showSlides(n) {
+               let i;
+               let slides = document.getElementsByClassName("mySlides");
+               let dots = document.getElementsByClassName("dot");
+               if (n > slides.length) {slideIndex = 1}    
+               if (n < 1) {slideIndex = slides.length}
+               for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+               }
+               for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+               }
+               slides[slideIndex-1].style.display = "block";  
+               dots[slideIndex-1].className += " active";
+               }
+         </script>
+
+      <!--==================== MAIN HERO ====================-->
+      <br>
+      <h1 style="color: #ffffff; background: linear-gradient(90deg, rgba(248, 235, 39, 0) 0%, #000000 48.11%, rgba(248, 235, 39, 0) 100%);text-align: center;padding: 15px 0px;">FOR WOMEN</h1>
+      <br><br>
+      <h1 style="color: #000000;border-left: 4px solid rgb(255, 0, 0);margin-left:100px;padding-left:10px;">KURTI</h1>
+      <p style="margin: 4px 0px 4px 115px;color: #000000;">New Arival & Trending Kurti</p><br>
+      <div class="cover">
+         <button class="left" onclick="leftScroll()">
+           <i class="fas fa-angle-double-left"></i>
+         </button>
+         <div class="scroll-images">
+           <div class="child" id="data-output" style="display: flex;">
+
+           </div>
+         </div>
+         <button class="right" onclick="rightScroll()">
+           <i class="fas fa-angle-double-right"></i>
+         </button>
+      </div>
+      <script>
+            document.addEventListener('DOMContentLoaded', function() {
+               const tableBody = document.getElementById('data-output');
+               // Fetch JSON data from file
+               fetch('./assets/json/kurtis.json')
+                  .then(response => response.json()) // Parse JSON response
+                  .then(data => {
+                     // Function to populate table body with products
+                     function populateTable(products) {
+                           tableBody.innerHTML = ''; // Clear existing table body content
+                           products.forEach(product => {
+                              const row = document.createElement('div');
+                              row.innerHTML = `
+                              <div class="product-card">
+                                 <img src="${product.image}" alt="Product Image" width="400" height="533">
+                                 <div class="product-info">
+                                    <h2>${product.name}</h2>
+                                    <p>${product.description}</p>
+                                    <div style="display: flex;justify-content: space-between;align-items: center;">
+                                       <span><p class="price">Rs.${product.price}</p></span>
+                                       <span><button onclick="addToCart(${product.price})">Add to Cart</button></span>
+                                    </div>
+                                 </div>
+                              </div>
+                              `;
+                              tableBody.appendChild(row);
+                           });
+                     }
+                     // Call the populateTable function with fetched data
+                     populateTable(data);
+                  })
+               .catch(error => console.error('Error fetching data:', error));
+            });
+
+            // scroll bar
+            document.addEventListener("DOMContentLoaded", function () {
+               const scrollImages = document.querySelector(".scroll-images");
+               const scrollLength = scrollImages.scrollWidth - scrollImages.clientWidth;
+               const leftButton = document.querySelector(".left");
+               const rightButton = document.querySelector(".right");
+            
+               function checkScroll() {
+                  const currentScroll = scrollImages.scrollLeft;
+                  if (currentScroll === 0) {
+                  leftButton.setAttribute("disabled", "true");
+                  rightButton.removeAttribute("disabled");
+                  } else if (currentScroll === scrollLength) {
+                  rightButton.setAttribute("disabled", "true");
+                  leftButton.removeAttribute("disabled");
+                  } else {
+                  leftButton.removeAttribute("disabled");
+                  rightButton.removeAttribute("disabled");
+                  }
+               }
+            
+               scrollImages.addEventListener("scroll", checkScroll);
+               window.addEventListener("resize", checkScroll);
+               checkScroll();
+            
+               function leftScroll() {
+                  scrollImages.scrollBy({
+                  left: -200,
+                  behavior: "smooth"
+                  });
+               }
+            
+               function rightScroll() {
+                  scrollImages.scrollBy({
+                  left: 200,
+                  behavior: "smooth"
+                  });
+               }
+            
+               leftButton.addEventListener("click", leftScroll);
+               rightButton.addEventListener("click", rightScroll);
+            });
+      </script>
+      
+      <br><br>
+      <h1 style="color: #000000;border-left: 4px solid rgb(255, 0, 0);margin-left:100px;padding-left:10px;">SHIRTS</h1>
+      <p style="margin: 4px 0px 4px 115px;color: #000000;">Trending T-Shirts Styel</p><br>
+      <div class="cover">
+         <button class="left1" onclick="leftScroll()">
+         <i class="fas fa-angle-double-left"></i>
+         </button>
+         <div class="scroll-images1">
+            <div class="child" id="data-output1" style="display: flex;">
+
+            </div>
+         </div>
+         <button class="right1" onclick="rightScroll()">
+         <i class="fas fa-angle-double-right"></i>
+         </button>
+      </div>
+      <script>
+            document.addEventListener('DOMContentLoaded', function() {
+               const tableBody = document.getElementById('data-output1');
+                  // Fetch JSON data from file
+                  fetch('./assets/json/womentshrits.json')
+                  .then(response => response.json()) // Parse JSON response
+                        .then(data => {
+                           // Function to populate table body with products
+                           function populateTable(products) {
+                              tableBody.innerHTML = ''; // Clear existing table body content
+                                 products.forEach(product => {
+                                    const row = document.createElement('div');
+                                    row.innerHTML = `
+                                    <div class="product-card">
+                                       <img src="${product.image}" alt="Product Image" width="400" height="533">
+                                       <div class="product-info">
+                                          <h2>${product.name}</h2>
+                                          <p>${product.description}</p>
+                                          <div style="display: flex;justify-content: space-between;align-items: center;">
+                                             <span><p class="price">Rs.${product.price}</p></span>
+                                             <span><button onclick="addToCart(${product.price})">Add to Cart</button></span>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    `;
+                                 tableBody.appendChild(row);
+                              });
+                           }
+                           // Call the populateTable function with fetched data
+                        populateTable(data);
+                     })
+               .catch(error => console.error('Error fetching data:', error));
+            });
+
+         document.addEventListener("DOMContentLoaded", function () {
+            const scrollImages = document.querySelector(".scroll-images1");
+            const scrollLength = scrollImages.scrollWidth - scrollImages.clientWidth;
+            const leftButton = document.querySelector(".left1");
+            const rightButton = document.querySelector(".right1");
+         
+            function checkScroll() {
+               const currentScroll = scrollImages.scrollLeft;
+               if (currentScroll === 0) {
+               leftButton.setAttribute("disabled", "true");
+               rightButton.removeAttribute("disabled");
+               } else if (currentScroll === scrollLength) {
+               rightButton.setAttribute("disabled", "true");
+               leftButton.removeAttribute("disabled");
+               } else {
+               leftButton.removeAttribute("disabled");
+               rightButton.removeAttribute("disabled");
+               }
+            }
+         
+            scrollImages.addEventListener("scroll", checkScroll);
+            window.addEventListener("resize", checkScroll);
+            checkScroll();
+         
+            function leftScroll() {
+               scrollImages.scrollBy({
+               left: -200,
+               behavior: "smooth"
+               });
+            }
+         
+            function rightScroll() {
+               scrollImages.scrollBy({
+               left: 200,
+               behavior: "smooth"
+               });
+            }
+         
+            leftButton.addEventListener("click", leftScroll);
+            rightButton.addEventListener("click", rightScroll);
+         });
+      </script>
+
+
+      <br><br>
+      <h1 style="color: #000000;border-left: 4px solid rgb(255, 0, 0);margin-left:100px;padding-left:10px;">BOTTOMWEAR</h1>
+      <p style="margin: 4px 0px 4px 115px;color: #000000;">Trending Bottomwear Styel</p><br>
+      <div class="cover">
+         <button class="left2" onclick="leftScroll()">
+         <i class="fas fa-angle-double-left"></i>
+         </button>
+         <div class="scroll-images2">
+         <div class="child" id="data-output2" style="display: flex;">
+
+         </div>
+         </div>
+         <button class="right2" onclick="rightScroll()">
+         <i class="fas fa-angle-double-right"></i>
+         </button>
+      </div>
+      <script>
+            document.addEventListener('DOMContentLoaded', function() {
+               const tableBody = document.getElementById('data-output2');
+               // Fetch JSON data from file
+               fetch('./assets/json/womenbottomear.json')
+                  .then(response => response.json()) // Parse JSON response
+                  .then(data => {
+                     // Function to populate table body with products
+                     function populateTable(products) {
+                           tableBody.innerHTML = ''; // Clear existing table body content
+                           products.forEach(product => {
+                              const row = document.createElement('div');
+                              row.innerHTML = `
+                              <div class="product-card">
+                                 <img src="${product.image}" alt="Product Image" width="400" height="533">
+                                 <div class="product-info">
+                                    <h2>${product.name}</h2>
+                                    <p>${product.description}</p>
+                                    <div style="display: flex;justify-content: space-between;align-items: center;">
+                                       <span><p class="price">Rs.${product.price}</p></span>
+                                       <span><button onclick="addToCart(${product.price})">Add to Cart</button></span>
+                                    </div>
+                                 </div>
+                              </div>
+                              `;
+                              tableBody.appendChild(row);
+                           });
+                     }
+                     // Call the populateTable function with fetched data
+                     populateTable(data);
+                  })
+               .catch(error => console.error('Error fetching data:', error));
+            });
+
+            // scroll bar
+            document.addEventListener("DOMContentLoaded", function () {
+               const scrollImages = document.querySelector(".scroll-images2");
+               const scrollLength = scrollImages.scrollWidth - scrollImages.clientWidth;
+               const leftButton = document.querySelector(".left2");
+               const rightButton = document.querySelector(".right2");
+            
+               function checkScroll() {
+                  const currentScroll = scrollImages.scrollLeft;
+                  if (currentScroll === 0) {
+                  leftButton.setAttribute("disabled", "true");
+                  rightButton.removeAttribute("disabled");
+                  } else if (currentScroll === scrollLength) {
+                  rightButton.setAttribute("disabled", "true");
+                  leftButton.removeAttribute("disabled");
+                  } else {
+                  leftButton.removeAttribute("disabled");
+                  rightButton.removeAttribute("disabled");
+                  }
+               }
+            
+               scrollImages.addEventListener("scroll", checkScroll);
+               window.addEventListener("resize", checkScroll);
+               checkScroll();
+            
+               function leftScroll() {
+                  scrollImages.scrollBy({
+                  left: -200,
+                  behavior: "smooth"
+                  });
+               }
+            
+               function rightScroll() {
+                  scrollImages.scrollBy({
+                  left: 200,
+                  behavior: "smooth"
+                  });
+               }
+            
+               leftButton.addEventListener("click", leftScroll);
+               rightButton.addEventListener("click", rightScroll);
+            });
+      </script>
+
+       <script>
+         let cartTotal = 0; 
+   
+         function addToCart(price) {
+            cartTotal += price;
+            updateCartTotal();
+         }
+         function updateCartTotal() {
+            const cartTotalElement = document.getElementById('cart-total');
+            cartTotalElement.textContent = cartTotal.toFixed(2);
+         }
+      </script>
+            
+      <!--==================== footer ====================-->
+      <footer class="footerBody">
+         <div class="footerContainer">
+            <div class="footer-sub-Container2 footer-sub-box">
+               <ul>
+                  <li><p>Shopping</p></li>
+                  <li><a href="">New Arrivals</a></li>
+                  <li><a href="">Trending Now</a></li>
+                  <li><a href="">Men</a></li>
+                  <li><a href="">Women</a></li>
+                  <li><a href="">Sale</a></li>
+               </ul>
+            </div>
+            <div class="footer-sub-Container3 footer-sub-box">
+               <ul>
+                  <li><p>Compnay</p></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Careerc</a></li>
+                  <li><a href="">Support</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">FAQ</a></li>
+               </ul>
+            </div>
+            <div class="footer-sub-Container4 footer-sub-box">
+               <ul>
+                  <li><p>Get Help</p></li>
+                  <li><a href="">Helo Center</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Tearms</a></li>
+                  <li><a href="">Login</a></li>
+               </ul>
+            </div>
+            <div class="footer-sub-Container1 footer-sub-box">
+               <ul>
+                  <li><p>Link</p></li>
+                  <li><a href="">Countact-Us</a></li>
+                  <li><a href="">Payment</a></li>
+                  <li><a href="">Delivery</a></li>
+                  <li><a href="">Return & Exchange</a></li>
+                  <li><a href="">Add to card</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer-subfooter">
+            <div style="display: flex;justify-content:space-between;margin-right: 30px;align-items: center; margin: 0px 50px;">
+               <div style="margin-bottom: 20px;">
+                  <span><h4 style="color: #ffffff;margin: 5px 10px;">SOCIAL MEDIA</h4></span>
+                  <img src="./assets/img/Screenshot 2024-04-28 172659.png" alt="" width="300px">
+               </div>
+               <div>
+                  <span><h4 style="color: #ffffff;margin: 5px 0px;">100% SECURE PAYMENT</h4></span>
+                  <img src="./assets/img/Frame-payment -1.jpg" alt="" width="500px" style="margin-bottom: 20px;">
+               </div>
+            </div>
+            <center><h4 class="Copyrigth">Copyrigthzedio@2024.All rigths reserved</h4> </center> 
+         </div>
+      </footer>
+</html>

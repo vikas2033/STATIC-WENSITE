@@ -1,0 +1,65 @@
+[
+   {
+      "name": "Orient Vita Pro 28",
+      "image": "./assets/img/t-shirts/product1.jpg",
+      "description":"Oversized T-Shirts",
+      "price": "484.00"
+   },
+   {
+      
+      "name": "Orient S-400 26",
+      "image": "./assets/img/t-shirts/product2.jpg",
+      "description":"Oversized T-Shirts",
+      "price": "498.00"
+   },
+   {
+      
+      "name": "Bullet Bora 20",
+      "image": "./assets/img/t-shirts/product3.jpg",
+      "description":"Plain T Shirt",
+      "price": "350.00"
+   },
+   {
+      
+      "name": "Feder handmade",
+      "image": "./assets/img/t-shirts/product4.jpg",
+      "description":"Plain T Shirt",
+      "price": "400.00"
+   },
+   {
+      "name": "Ibanez G120",
+      "image": "./assets/img/t-shirts/product5.jpg",
+      "description":"Full Sleeve T Shirts",
+      "price": "430.00"
+   },
+   {
+      "name": "Feder Blues edition",
+      "image": "./assets/img/t-shirts/product6.jpg",
+      "description":"Full Sleeve T Shirts",
+      "price": "450.00"
+   },
+   {
+      "name": "Feder Blues edition",
+      "image": "./assets/img/t-shirts/product7.jpg",
+      "description":"Printed T-Shirts",
+      "price": "550.00"
+   },
+   {
+      "name": "Feder Blues edition",
+      "image": "./assets/img/t-shirts/product8.jpg",
+      "description":"Printed T-Shirts",
+      "price": "450.00"
+   },
+   {
+      "name": "Feder Blues edition",
+      "image": "./assets/img/t-shirts/product9.jpg",
+      "description":"Printed T-Shirts",
+      "price": "650.00"
+   },
+   {
+      "name": "Feder Blues edition",
+      "image": "./assets/img/t-shirts/product10.jpg",
+      "description":"Printed T-Shirts",
+      "price": "550.00"
+   }
+]

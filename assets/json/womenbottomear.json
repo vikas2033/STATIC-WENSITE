@@ -1,0 +1,64 @@
+[
+    {
+       "name": "Indigo Blue High Waist",
+       "image": "./assets/img/women-bottomear/product1.jpg",
+       "description":"Jeggings",
+       "price": "984.00"
+    },
+    {
+       
+       "name": "Dark Green Triple ",
+       "image": "./assets/img/women-bottomear/product2.jpg",
+       "description":" Jeggings",
+       "price": "898.00"
+    },
+    {
+      "name": "Pink Parallel ",
+      "image": "./assets/img/women-bottomear/product3.jpg",
+      "description":" Jeggings",
+      "price": "384.00"
+   },
+   {
+      
+      "name": "Brown Belted Skin Fit",
+      "image": "./assets/img/women-bottomear/product4.jpg",
+      "description":" Jeggings",
+      "price": "498.00"
+   },
+   {
+      "name": "Black & White ",
+      "image": "./assets/img/women-bottomear/product5.jpg",
+      "description":" Jeggings",
+      "price": "284.00"
+   },
+   {
+      "name": "Indigo Black High White",
+      "image": "./assets/img/women-bottomear/product6.jpg",
+      "description":" Jeggings",
+      "price": "798.00"
+   },
+   {
+      "name": "Black High White ",
+      "image": "./assets/img/women-bottomear/product7.jpg",
+      "description":" Jeggings",
+      "price": "384.00"
+   },
+   {
+      "name": "Black High White Dote",
+      "image": "./assets/img/women-bottomear/product8.jpg",
+      "description":" Jeggings",
+      "price": "258.00"
+   },
+   {
+      "name": "Black Solid Cargo ",
+      "image": "./assets/img/women-bottomear/product9.jpg",
+      "description":" Cargo",
+      "price": "800.00"
+   },
+   {
+      "name": "Black Chino",
+      "image": "./assets/img/women-bottomear/product10.jpg",
+      "description":" Chino",
+      "price": "598.00"
+   }
+ ]

@@ -1,0 +1,65 @@
+[
+   {
+      "name": "Light Grey Waffle Shirt",
+      "image": "./assets/img/Shirts/product1.jpg",
+      "description":"Urban Shirt",
+      "price": "684.00"
+   },
+   {
+      
+      "name": "Dreamy Blue Plaid ",
+      "image": "./assets/img/Shirts/product2.jpg",
+      "description":"Urban Shirt",
+      "price": "798.00"
+   },
+   {
+      
+      "name": "Navy Blue Sulphur Twill",
+      "image": "./assets/img/Shirts/product3.jpg",
+      "description":"Urban Shirt",
+      "price": "550.00"
+   },
+   {
+      
+      "name": "Maple Orange",
+      "image": "./assets/img/Shirts/product4.jpg",
+      "description":"Urban Shirt",
+      "price": "790.00"
+   },
+   {
+      "name": "Burgundy - Cotton Solid",
+      "image": "./assets/img/Shirts/product5.jpg",
+      "description":"Plain Shirt",
+      "price": "430.00"
+   },
+   {
+      "name": "White- Cotton Solid",
+      "image": "./assets/img/Shirts/product6.jpg",
+      "description":"Plain Shirt",
+      "price": "650.00"
+   },
+   {
+      "name": "Brick Red - Cotton Solid ",
+      "image": "./assets/img/Shirts/product7.jpg",
+      "description":"Plain Shirt",
+      "price": "350.00"
+   },
+   {
+      "name": "Sky Blue - Cotton Solid",
+      "image": "./assets/img/Shirts/product8.jpg",
+      "description":"Plain Shirt",
+      "price": "340.00"
+   },
+   {
+      "name": "Dark Grey Crochet",
+      "image": "./assets/img/Shirts/product9.jpg",
+      "description":"Urban Shirt",
+      "price": "750.00"
+   },
+   {
+      "name": "Black Clubwear Shirt ",
+      "image": "./assets/img/Shirts/product10.jpg",
+      "description":"Clubwear Shirts",
+      "price": "550.00"
+   }
+]

@@ -1,0 +1,67 @@
+[
+    {
+       "name": "Light Blue Floral A-Line",
+       "image": "./assets/img/women-kurtis/product1.jpg",
+       "description":"Kurta",
+       "price": "584.00"
+    },
+    {
+       
+       "name": "Red Collar Flare ",
+       "image": "./assets/img/women-kurtis/product2.jpg",
+       "description":"Kurta",
+       "price": "498.00"
+    },
+    {
+      "name": "Blue Printed A-line ",
+      "image": "./assets/img/women-kurtis/product3.jpg",
+      "description":"Kurta",
+      "price": "984.00"
+   },
+   {
+      
+      "name": "White Printed A-Line ",
+      "image": "./assets/img/women-kurtis/product4.jpg",
+      "description":"Kurta",
+      "price": "595.00"
+   },
+   {
+      "name": "Striped Printed Straight ",
+      "image": "./assets/img/women-kurtis/product5.jpg",
+      "description":"Kurta",
+      "price": "384.00"
+   },
+   {
+      
+      "name": "White Block-Print ",
+      "image": "./assets/img/women-kurtis/product6.jpg",
+      "description":"Kurta",
+      "price": "498.00"
+   },
+   {
+      "name": "Black And Blue Straight",
+      "image": "./assets/img/women-kurtis/product7.jpg",
+      "description":"Kurta",
+      "price": "384.00"
+   },
+   {
+      
+      "name": "Elephant Printed A-Line ",
+      "image": "./assets/img/women-kurtis/product8.jpg",
+      "description":"Kurta",
+      "price": "758.00"
+   },
+   {
+      "name": "White Block-Printed ",
+      "image": "./assets/img/women-kurtis/product9.jpg",
+      "description":"Kurti",
+      "price": "564.00"
+   },
+   {
+      
+      "name": "Green Printed A-Line",
+      "image": "./assets/img/women-kurtis/product10.jpg",
+      "description":"Kurti",
+      "price": "788.00"
+   }
+ ]

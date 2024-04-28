@@ -1,0 +1,26 @@
+.container_box{
+    display: flex;
+    padding: 10px 20px 20px 20px;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    width: 1200;
+    justify-content: center;
+ }
+
+.cont1{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.cont1 div i{
+    margin-left:10px;
+}
+.cont1 div h4 ,p{
+    text-align: start;
+}

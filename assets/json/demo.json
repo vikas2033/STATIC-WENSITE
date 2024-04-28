@@ -1,0 +1,100 @@
+[
+    {
+       "name": "White and Black Urban Shirt",
+       "image": "./assets/img/tranding product/product1.jpg",
+       "description":"Urban Shirt",
+       "price": "355"
+    },
+    {
+       
+       "name": "Navy Blue Cotton Shirts",
+       "image": "./assets/img/tranding product/product2.jpg",
+       "description":"Cotton Shirt",
+       "price": "500"
+    },
+    {
+       
+       "name": "white Straight Kurta",
+       "image": "./assets/img/tranding product/product3.jpg",
+       "description":"Kurtis",
+       "price": "350"
+    },
+    {
+       "name": "Blue Sleeve T-shirts",
+       "image": "./assets/img/tranding product/product4.jpg",
+       "description":"Sleeve T-shirts",
+       "price": "790.00"
+    },
+    {
+       "name": "Black Plain T-Shirt",
+       "image": "./assets/img/tranding product/product5.jpg",
+       "description":"Plain T-shirt - Regular Fit",
+       "price": "430.00"
+    },
+    {
+       "name": "Women Plain T-Shirt",
+       "image": "./assets/img/tranding product/product6.jpg",
+       "description":"Plain T-Shirt",
+       "price": "650.00"
+    },
+    {
+       "name": "Maple Orange Solid Suede",
+       "image": "./assets/img/tranding product/product7.jpg",
+       "description":"Urban Shirt",
+       "price": "1150.00"
+    },
+    {
+       "name": "black Cargo Jogger Pant",
+       "image": "./assets/img/tranding product/product8.jpg",
+       "description":"Cargo Pant",
+       "price": "750.00"
+    },
+    {
+       "name": " Denim Pant for Men",
+       "image": "./assets/img/tranding product/product9.jpg",
+       "description":"Denim Jeans",
+       "price": "950.00"
+    },
+    {
+       "name": "Midnight Blue Chinos ",
+       "image": "./assets/img/tranding product/product10.jpg",
+       "description":"Chino Pants",
+       "price": "620.00"
+    },
+    {
+      "name": "Blue Floral A-Line Kurta",
+      "image": "./assets/img/tranding product/product11.jpg",
+      "description":"Kurtis",
+      "price": "550.00"
+   },
+   {
+      "name": "Denim Jacket For men",
+      "image": "./assets/img/tranding product/product12.jpg",
+      "description":"Denim Jacket",
+      "price": "1200.00"
+   },
+   {
+      "name": "Navy Blue Color Block",
+      "image": "./assets/img/tranding product/product13.jpg",
+      "description":"Urban Shirt",
+      "price": "1150.00"
+   },
+   {
+      "name": "Plain Oversized T-Shirt",
+      "image": "./assets/img/tranding product/product14.jpg",
+      "description":"Oversized T-Shirts",
+      "price": "650.00"
+   },
+   {
+     "name": "black Corduroy Checked",
+     "image": "./assets/img/tranding product/product15.jpg",
+     "description":"Urban Shirt",
+     "price": "850.00"
+  },
+  {
+     "name": "Red Top",
+     "image": "./assets/img/tranding product/product16.jpg",
+     "description":"Crop Top",
+     "price": "850.00"
+  }
+ ]

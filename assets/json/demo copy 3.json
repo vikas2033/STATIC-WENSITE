@@ -1,0 +1,85 @@
+[
+    {
+       "name": "Orient Vita Pro 28",
+       "image": "./assets/img/tranding product/product1.jpg",
+       "price": "284.00"
+    },
+    {
+       
+       "name": "Orient S-400 26",
+       "image": "./assets/img/tranding product/product2.jpg",
+       "price": "198.00"
+    },
+    {
+       
+       "name": "Bullet Bora 20",
+       "image": "./assets/img/tranding product/product3.jpg",
+       "price": "350.00"
+    },
+    {
+       
+       "name": "Feder handmade",
+       "image": "./assets/img/tranding product/product4.jpg",
+       "price": "790.00"
+    },
+    {
+       "name": "Ibanez G120",
+       "image": "./assets/img/tranding product/product5.jpg",
+       "price": "430.00"
+    },
+    {
+       "name": "Feder Blues edition",
+       "image": "./assets/img/tranding product/product6.jpg",
+       "price": "650.00"
+    },
+    {
+       "name": "Feder Blues edition",
+       "image": "./assets/img/tranding product/product7.jpg",
+       "price": "650.00"
+    },
+    {
+       "name": "Feder Blues edition",
+       "image": "./assets/img/tranding product/product8.jpg",
+       "price": "650.00"
+    },
+    {
+       "name": "Feder Blues edition",
+       "image": "./assets/img/tranding product/product9.jpg",
+       "price": "650.00"
+    },
+    {
+       "name": "Feder Blues edition",
+       "image": "./assets/img/tranding product/product10.jpg",
+       "price": "650.00"
+    },
+    {
+      "name": "Feder Blues edition",
+      "image": "./assets/img/tranding product/product11.jpg",
+      "price": "650.00"
+   },
+   {
+      "name": "Feder Blues edition",
+      "image": "./assets/img/tranding product/product12.jpg",
+      "price": "650.00"
+   },
+   {
+      "name": "Feder Blues edition",
+      "image": "./assets/img/tranding product/product13.jpg",
+      "price": "650.00"
+   },
+   {
+      "name": "Feder Blues edition",
+      "image": "./assets/img/tranding product/product14.jpg",
+      "price": "650.00"
+   },
+   {
+     "name": "Feder Blues edition",
+     "image": "./assets/img/tranding product/product15.jpg",
+     "price": "650.00"
+  },
+  {
+     "name": "Feder Blues edition",
+     "image": "./assets/img/tranding product/product16.jpg",
+     "price": "650.00"
+  }
+ ]

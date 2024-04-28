@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== fontawesome =============== -->
+      <script src="https://kit.fontawesome.com/b544f26d5d.js" crossorigin="anonymous"></script>
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="./assets/css/nav.css">
+      <link rel="stylesheet" href="./assets/css/slide.css">
+      <link rel="stylesheet" href="./assets/css/product.css">
+      <link rel="stylesheet" href="./assets/css/login.css">
+      <link rel="stylesheet" href="./assets/css/footer.css">
+      <link rel="stylesheet" href="./assets/css/ourservice.css">
+      <title>MEN PAGE</title>
+      <style>
+        .cover {
+         position: relative;
+         padding: 10px 50px;
+         margin-top: 100px;
+         margin: 0px  40px;
+      }
+
+
+      .left1{
+         position: absolute;
+         left: 0;
+         top: 50%;
+         transform: translateY(-50%);
+      }
+
+      .right1{
+         position: absolute;
+         right: 0;
+         top: 50%;
+         transform: translateY(-50%);
+      }
+
+      .scroll-images1{
+         display: flex;
+         position: relative;
+         width: 100%;
+         height: auto;
+         display: flex;
+         flex-wrap: nowrap;
+         overflow-x: hidden;
+         overflow-y: hidden;
+         scroll-behavior: smooth;
+         -webkit-overflow-scrolling: touch;
+      }
+     
+      .scroll-images1::-webkit-scrollbar{
+         width: 5px;
+         height: 8px;
+         background-color: #aaa;
+      }
+     .scroll-images1::-webkit-scrollbar-thumb{
+         background-color: black;
+      }
+      .cover>button{
+         background-color: transparent;
+         border: none;
+         outline: none;
+         cursor: pointer;
+         font-size: 25px;
+      }
+      .product-card {
+         background-color: #fff;
+         border-radius: 8px;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         overflow: hidden;
+         margin: 7px;
+         width: 250px;
+         height:480px;
+      }
+
+      .product-card img {
+         width: 250px;
+         height: 340px;
+         display: block;
+      }
+
+      .product-card .product-info {
+         padding: 15px;
+         display: grid;
+         grid-column: 100px 100px;
+         justify-content: space-between;
+         align-content: center;
+      }
+
+      .product-card .product-info h3{
+         font-size: 14px;
+         margin-bottom: 10px;
+      }
+
+      .product-card .product-info p {
+         font-size: 12px;
+         color: #777;
+         display: block;
+      }
+
+      .product-card .product-info .shop-item-price{
+         font-size: 18px;
+         font-weight: bold;
+         color: #000000;
+         margin-top: 20px;
+         margin-right: 55px;
+      }
+
+      .product-info button{
+         text-align: center;
+         position: relative;
+         right: 0;
+         bottom: 0;         
+         cursor: pointer;
+         color: white;
+         background-color: #000000;
+         border: none;
+         border-radius: 4px;
+         position: relative;
+         width: 100px;
+         padding: 5px 2px;
+         height: 35px;
+         transition: background-color 0.3s;
+         margin-top: 17px;
+      }
+      
+      .product-info button:hover{
+         background-color: #0c82f8;
+      }
+
+
+
+      .card-big-box{
+            display: flex;
+            margin: 0px 85px;
+        }
+        .left-side .image{
+            width: 386px;
+            margin-inline:32px ;
+        }
+        .card-big-box .img-big-box .image{
+            width: 74px;
+            margin-left: 22px;
+            cursor: pointer;
+        }
+        
+        .card-big-box .right {
+            margin-top: 11px;
+        }
+        .right-side h3{
+            margin-top: 11px;
+            color: gray;
+        }
+        .right-side h1{
+            margin-top: 11px;
+        }
+        .right-side i{
+            margin-top: 11px;
+            color: rgb(225, 213, 50);
+        }
+        .right-side h4{
+            margin-top: 11px;
+        }
+        .right-side p{
+            margin-top: 11px;
+        }
+        .right-side .productsize-box{
+            justify-content: space-around;
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .right-side .productcolor-box{
+            justify-content: space-around;
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .right-side .productsize-box .productsize{
+            border:2px solid black;
+            padding: 7px;
+            margin: 0px 5px;
+            border-radius: 3px;
+            width: 50px;
+            height: 35px;
+            color: #000000;
+            border-radius: 3px;
+        }
+        .productsize:hover{
+            color: #f80606;
+            cursor: pointer;
+        }
+        .right-side .productcolor-box .productcolor{
+            border:2px solid black;
+            padding: 7px;
+            margin: 0px 7px;
+            border-radius: 3px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50px;
+
+        }
+        .right-side .by-button{
+            width: 200px;
+            height: 50px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 25px;
+            border: none;
+            margin-top: 22px;
+            margin-inline: 22px;
+            font-weight: 600;
+            margin-left: 1px;
+            border-radius: 7px;
+        }
+        .right-side .add-button{
+            width: 200px;
+            height: 50px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+            border: none;
+            margin-top: 22px;
+            margin-inline: 22px;
+            font-weight: 600;
+            margin-left: 1px;
+            border-radius: 7px;
+            border: 2px solid black;
+        }
+
+        .right-side .by-button:hover{
+            background-color: rgb(0, 68, 255);
+            cursor: pointer;
+        }
+        .right-side .add-button:hover{
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+        }
+      </style>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo"><img src="./assets/img/WhatsApp Image 2024-04-24 at 16.22.11_5ded8c9d.jpg" style="height: 40px;" alt="logo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="index.html" class="nav__link">Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="men.html" class="nav__link">Men</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="women.html" class="nav__link">Women</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="newarival.html" class="nav__link">New Arrivals</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__actions">
+               <!-- Search button -->
+               <i class="ri-search-line nav__search" id="search-btn"></i>
+
+               <!-- Login button -->
+               <i class="ri-user-line nav__login" id="login-btn"></i>
+
+               <i class="fa-regular fa-heart nav_heart" id="like-btn"></i>
+
+               <i class="fa-solid fa-bag-shopping nav_shopping" id="carts-btn"></i>
+               <!-- <span class="quantity"><p>0</p></span> -->
+
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="What are you looking for?" class="search__input">
+         </form>
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+      <!--==================== LOGIN ====================-->
+      <div class="login" id="login">
+         <section class="forms">
+            <div class="form login1">
+               <div class="form-content">
+                  <div class="title">Login</div>
+                  <form action="#">
+                     <div class="field input-field">
+                           <input type="email" placeholder="Email" class="input">
+                     </div>
+
+                     <div class="field input-field">
+                           <input type="password" placeholder="Password" class="password">
+                           <i class='bx bx-hide eye-icon'></i>
+                     </div>
+
+                     <div class="form-link">
+                           <a href="ForgotPassword.html" class="forgot-pass">Forgot password?</a>
+                     </div>
+
+                     <div class="field button-field">
+                           <button>Login</button>
+                     </div>
+                  </form>
+
+                  <div class="form-link">
+                     <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                  </div>
+               </div>
+
+               <div class="line"></div>
+
+               <div class="media-options">
+                  <a href="#" class="field facebook">
+                     <img src="./assets/img/facebook.png" alt="hbhbh" class="facebook-img">
+                     <span>Login with Facebook</span>
+                  </a>
+               </div>
+               <div class="media-options">
+                  <a href="#" class="field google">
+                     <img src="./assets/img/google.png" alt="hbhbh" class="facebook-img">
+                     <span>Login with Google</span>
+                  </a>
+               </div>
+         </div>
+
+         <!-- Signup Form -->
+
+         <div class="form signup">
+               <div class="form-content">
+                  <div class="title">Signup</div>
+                  <form action="#">
+                     <div class="field input-field">
+                           <input type="email" placeholder="Email" class="input">
+                     </div>
+                     <div class="field input-field">
+                           <input type="password" placeholder="Create password" class="password">
+                     </div>
+                     <div class="field input-field">
+                           <input type="password" placeholder="Confirm password" class="password">
+                           <i class='bx bx-hide eye-icon'></i>
+                     </div>
+                     <div class="field button-field">
+                           <button>Signup</button>
+                     </div>
+                  </form>
+                  <div class="form-link">
+                     <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                  </div>
+               </div>
+               <div class="line"></div>
+               <div class="media-options">
+                  <a href="#" class="field facebook">
+                     <img src="./assets/img/facebook.png" alt="" class="facebook-img">
+                     <span>Login with Facebook</span>
+                  </a>
+               </div>
+               <div class="media-options">
+                  <a href="#" class="field google">
+                     <img src="./assets/img/google.png" alt="" class="google-img">
+                     <span>Login with Google</span>
+                  </a>
+               </div>
+         </div>
+      </section>
+         <i class="ri-close-line login__close" id="login-close"></i>
+      </div>
+      <script src="./assets/js/login.js"></script>
+
+      <!--==================== like ====================-->
+      <div class="like" id="like">
+         <i class="ri-close-line login__close" id="like-close"></i>
+      </div>
+      <!--==================== cards ====================-->
+      <body>
+         <div class="carts" id="carts">
+            <div class="container">
+               <div class="cart">
+                  <section class="container content-section">
+                     <h2 class="section-header">CART</h2>
+                     <div class="cart-row">
+                         <span class="cart-item cart-header cart-column">ITEM</span>
+                         <span class="cart-price cart-header cart-column">PRICE</span>
+                         <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                     </div>
+                     <div class="cart-items">
+                     </div>
+                     <div class="cart-total">
+                         <strong class="cart-total-title">Total</strong>
+                         <span class="cart-total-price">Rs.0</span>
+                     </div>
+                     <button class="btn-purchase" type="button">PURCHASE</button>
+                  </section>
+               </div>
+           </div>
+            <i class="ri-close-line login__close" id="carts-close"></i>
+         </div>
+         <script src="./assets/js/main.js"></script>
+         <script src="./assets/js/store.js"></script>
+      </body>
+      <!--==================== MAIN ====================-->
+      <br>
+      <br>
+      <br>
+      <main>
+         <br><br>
+         <div class="card-big-box">
+            <div class="img-big-box">
+                <img src="product2.jpg" alt="" onclick="clk(this)" class="image"> <br>
+                <img src="product3.jpg" alt=""  onclick="clk(this)" class="image"> <br>
+                <img src="product4.jpg" alt=""  onclick="clk(this)" class="image"> <br>
+                <img src="product5.jpg" alt=""  onclick="clk(this)" class="image"> <br>
+                <img src="product6.jpg" alt=""  onclick="clk(this)" class="image"> <br>
+            </div>
+            <div class="left-side">
+                <img src="product1.jpg" id="imgs" alt="" class="image shop-item-image">
+            </div>
+
+            <div class="right-side">
+                <h3>HRX by Bhuvan Bam</h3>
+                <h1 class="shop-item-title"> Navy Blue Cotton Solid </h1>
+                <h1 class="shop-item-price">Rs.799</h1>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <h3>Brand :BEYOUNG</h3>
+                <h3>Size:</h3>
+                <div class="productsize-box">
+                  <span class="productsize">M</span>
+                  <span class="productsize">L</span>
+                  <span class="productsize">XL</span>
+                  <span class="productsize">XXL</span>
+                </div>
+                <h3>Colors:</h3>
+                <div class="productcolor-box">
+                  <div class="productcolor" style="background-color: #752c2c;"></div>
+                  <div class="productcolor" style="background-color: #2628a4;"></div>
+                  <div class="productcolor" style="background-color: #fbfbfb;"></div>
+                  <div class="productcolor" style="background-color: #606060;"></div>
+                  <div class="productcolor" style="background-color: #3ef7f4;"></div>
+                </div>
+                <h4>Available Offer's</h4>
+                <p>: Special PriceGet extra 11% off (price inclusive of cashback/coupon)</p>
+                <p>: Partner OfferSign up for Flipkart Pay Later and get REGZA Gift Card worth up to ₹1000*</p>
+                <p>: Bank Offer5% Cashback on Flipkart Axis Bank</p>
+                <button class="add-button shop-item-button" type="button">Add To Cart</button>
+                <button class="by-button">Buy Now</button>
+            </div>
+        </div>
+
+        <script>
+            function clk(newImg){
+                let getImg=document.getElementById("imgs");
+                getImg.src=newImg.src;
+            }
+         </script>
+         <br><br>
+         <h1 style="color: #000000;border-left: 4px solid rgb(255, 0, 0);margin-left:100px;padding-left:10px;">SIMILAR PRODUCTS</h1><br>
+         <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            const scrollImages = document.querySelector(".scroll-images1");
+            const scrollLength = scrollImages.scrollWidth - scrollImages.clientWidth;
+            const leftButton = document.querySelector(".left1");
+            const rightButton = document.querySelector(".right1");
+         
+            function checkScroll() {
+               const currentScroll = scrollImages.scrollLeft;
+               if (currentScroll === 0) {
+               leftButton.setAttribute("disabled", "true");
+               rightButton.removeAttribute("disabled");
+               } else if (currentScroll === scrollLength) {
+               rightButton.setAttribute("disabled", "true");
+               leftButton.removeAttribute("disabled");
+               } else {
+               leftButton.removeAttribute("disabled");
+               rightButton.removeAttribute("disabled");
+               }
+            }
+         
+            scrollImages.addEventListener("scroll", checkScroll);
+            window.addEventListener("resize", checkScroll);
+            checkScroll();
+         
+            function leftScroll() {
+               scrollImages.scrollBy({
+               left: -200,
+               behavior: "smooth"
+               });
+            }
+         
+            function rightScroll() {
+               scrollImages.scrollBy({
+               left: 200,
+               behavior: "smooth"
+               });
+            }
+         
+            leftButton.addEventListener("click", leftScroll);
+            rightButton.addEventListener("click", rightScroll);
+         });
+         </script>
+         <div class="cover">
+            <button class="left1" onclick="leftScroll()">
+              <i class="fas fa-angle-double-left"></i>
+            </button>
+            <div class="scroll-images1">
+              <div class="child" id="data-output" style="display: flex;">
+               <div class="product-card">
+                     <img class="shop-item-image" src="./assets/img/tranding product/product1.jpg" width="300px" height="300px">
+                     <div class="product-info">
+                        <div style=" grid-column-start: 1;grid-column-end: 3;">
+                        <h2 class="shop-item-title">White and Black Urban</h2>
+                        <p> Shirts</p>
+                        </div>
+                        <h2 class="shop-item-price">Rs.998</h2>
+                        <button class="shop-item-button" type="button">Add to card</button>      
+                     </div>
+                 </div>
+                 <div class="product-card">
+                     <img class="shop-item-image" src="./assets/img/tranding product/product20.jpg" width="300px" height="300px">
+                     <div class="product-info">
+                        <div style=" grid-column-start: 1;grid-column-end: 3;">
+                        <h2 class="shop-item-title"> Gray Cotton Solid </h2>
+                        <p>Plain Shirts</p>
+                        </div>
+                        <div style=" grid-column-start: 1;grid-column-end: 2;">
+                           <h3 class="shop-item-price">Rs.899</h3> 
+                        </div>
+                        <button class="shop-item-button" type="button">Add to Card</button>     
+                     </div>
+                 </div>
+                 <div class="product-card">
+                  <img class="shop-item-image" src="./assets/img/t-shirts/product3.jpg" width="300px" height="300px">
+                  <div class="product-info">
+                     <div style=" grid-column-start: 1;grid-column-end: 3;">
+                     <h2 class="shop-item-title">Lilac Plain T-Shirt</h2>
+                     <p>Plain T-shirt Regular Fit</p>
+                     </div>
+                     <div style=" grid-column-start: 1;grid-column-end: 2;">
+                        <h3 class="shop-item-price">Rs.349</h3> 
+                     </div>
+                     <button class="shop-item-button" type="button">Add to Card</button>     
+                  </div>
+                  </div>
+                  <div class="product-card">
+                     <img class="shop-item-image" src="./assets/img/tranding product/product5.jpg" width="300px" height="300px">
+                     <div class="product-info">
+                        <div style=" grid-column-start: 1;grid-column-end: 3;">
+                        <h2 class="shop-item-title">Black Plain T-Shirt</h2>
+                        <p>Plain T-shirt - Regular Fit </p>
+                        </div>
+                        <div style=" grid-column-start: 1;grid-column-end: 2;">
+                           <h3 class="shop-item-price">Rs.369</h3> 
+                        </div>
+                        <button class="shop-item-button" type="button">Add to Card</button>     
+                     </div>
+                  </div>
+                  <div class="product-card">
+                     <img class="shop-item-image" src="./assets/img/tranding product/product7.jpg" width="300px" height="300px">
+                           <div class="product-info">
+                              <div style=" grid-column-start: 1;grid-column-end: 3;">
+                              <h2 class="shop-item-title">Maple Orange Solid</h2>
+                              <p>Urban Shirts</p>
+                              </div>
+                              <div style=" grid-column-start: 1;grid-column-end: 2;">
+                                 <h3 class="shop-item-price">Rs.846</h3> 
+                              </div>
+                              <button class="shop-item-button" type="button">Add to Card</button>     
+                              </div>
+                        </div>
+                        <div class="product-card">
+                              <img class="shop-item-image" src="./assets/img/tranding product/product8.jpg" width="300px" height="300px">
+                              <div class="product-info">
+                                 <div style=" grid-column-start: 1;grid-column-end: 3;">
+                                 <h2 class="shop-item-title">black Mens Cargo</h2>
+                                 <p> Cargo Pants</p>
+                                 </div>
+                                 <div style=" grid-column-start: 1;grid-column-end: 2;">
+                                    <h3 class="shop-item-price">Rs.1299</h3> 
+                                 </div>
+                                 <button class="shop-item-button" type="button">Add to Card</button>     
+                              </div>
+                           </div>
+                           <div class="product-card">
+                              <img class="shop-item-image" src="./assets/img/t-shirts/product5.jpg" width="300px" height="300px">
+                              <div class="product-info">
+                                 <div style=" grid-column-start: 1;grid-column-end: 3;">
+                                 <h2 class="shop-item-title">Plain Full Sleeve</h2>
+                                 <p> Full Sleeve T-Shirts</p>
+                                 </div>
+                                 <div style=" grid-column-start: 1;grid-column-end: 2;">
+                                    <h2 class="shop-item-price">Rs.300</h2> 
+                                 </div>
+                                 <button class="shop-item-button" type="button">Add to Card</button>     
+                              </div>
+                           </div>
+                           <div class="product-card">
+                              <img class="shop-item-image" src="./assets/img/tranding product/product10.jpg" width="300px" height="300px">
+                              <div class="product-info">
+                                 <div style=" grid-column-start: 1;grid-column-end: 3;">
+                                 <h2 class="shop-item-title">Midnight Blue Chinos</h2>
+                                 <p> Chino Pants</p>
+                                 </div>
+                                 <div style=" grid-column-start: 1;grid-column-end: 2;">
+                                    <h3 class="shop-item-price">Rs.1399</h3> 
+                                 </div>
+                                 <button class="shop-item-button" type="button">Add to Card</button>     
+                              </div>
+                           </div>   
+                           <div class="product-card">
+                              <img class="shop-item-image" src="./assets/img/t-shirts/product2.jpg" width="300px" height="300px">
+                              <div class="product-info">
+                                 <div style=" grid-column-start: 1;grid-column-end: 3;">
+                                 <h2 class="shop-item-title">Flame Orange </h2>
+                                 <p> Oversized T-Shirts</p>
+                                 </div>
+                                 <div style=" grid-column-start: 1;grid-column-end: 2;">
+                                    <h3 class="shop-item-price">Rs.558</h3> 
+                                 </div>
+                                 <button class="shop-item-button" type="button">Add to Card</button>     
+                              </div>
+                           </div>
+                           <div class="product-card">
+                              <img class="shop-item-image" src="./assets/img/tranding product/product12.jpg" width="300px" height="300px">
+                              <div class="product-info">
+                                 <div style=" grid-column-start: 1;grid-column-end: 3;">
+                                 <h2 class="shop-item-title">Light Blue</h2>
+                                 <p> Denim Shirts</p>
+                                 </div>
+                                 <div style=" grid-column-start: 1;grid-column-end: 2;">
+                                    <h3 class="shop-item-price">Rs.1199</h3> 
+                                 </div>
+                                 <button class="shop-item-button" type="button">Add to Card</button>     
+                              </div>
+                           </div>
+                           <div class="product-card">
+                              <img class="shop-item-image" src="./assets/img/tranding product/product13.jpg" width="300px" height="300px">
+                              <div class="product-info">
+                                 <div style=" grid-column-start: 1;grid-column-end: 3;">
+                                 <h2 class="shop-item-title">Navy Blue Color Urban</h2>
+                                 <p> Urban Shirts</p>
+                                 </div>
+                                 <div style=" grid-column-start: 1;grid-column-end: 2;">
+                                    <h3 class="shop-item-price">Rs.999</h3> 
+                                 </div>
+                                 <button class="shop-item-button" type="button">Add to Card</button>     
+                              </div>
+                           </div>
+                           <div class="product-card">
+                              <img class="shop-item-image" src="./assets/img/tranding product/product14.jpg" width="300px" height="300px">
+                              <div class="product-info">
+                                 <div style=" grid-column-start: 1;grid-column-end: 3;">
+                                 <h2 class="shop-item-title">Plain Oversized T-Shirt</h2>
+                                 <p> Oversized T-Shirts</p>
+                                 </div>
+                                 <div style=" grid-column-start: 1;grid-column-end: 2;">
+                                    <h3 class="shop-item-price">Rs.500</h3> 
+                                 </div>
+                                 <button class="shop-item-button" type="button">Add to Card</button>     
+                              </div>
+                           </div>
+                           <div class="product-card">
+                              <img class="shop-item-image" src="./assets/img/tranding product/product15.jpg" width="300px" height="300px">
+                              <div class="product-info">
+                                 <div style=" grid-column-start: 1;grid-column-end: 3;">
+                                 <h2 class="shop-item-title">black Corduroy Checked</h2>
+                                 <p>Urban Checks</p>
+                                 </div>
+                                 <div style=" grid-column-start: 1;grid-column-end: 2;">
+                                    <h3 class="shop-item-price">Rs.300</h3> 
+                                 </div>
+                                 <button class="shop-item-button" type="button">Add to Card</button>     
+                              </div>
+                           </div> 
+                     </div>
+                     </div>
+                  <button class="right1" onclick="rightScroll()">
+              <i class="fas fa-angle-double-right"></i>
+            </button>
+         </div>
+          
+         
+       </main>
+      <!--==================== footer ====================-->
+      <footer class="footerBody">
+         <div class="footerContainer">
+            <div class="footer-sub-Container2 footer-sub-box">
+               <ul>
+                  <li><p>Shopping</p></li>
+                  <li><a href="">New Arrivals</a></li>
+                  <li><a href="">Trending Now</a></li>
+                  <li><a href="">Men</a></li>
+                  <li><a href="">Women</a></li>
+                  <li><a href="">Sale</a></li>
+               </ul>
+            </div>
+            <div class="footer-sub-Container3 footer-sub-box">
+               <ul>
+                  <li><p>Compnay</p></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Careerc</a></li>
+                  <li><a href="">Support</a></li>
+                  <li><a href="">Pricing</a></li>
+                  <li><a href="">FAQ</a></li>
+               </ul>
+            </div>
+            <div class="footer-sub-Container4 footer-sub-box">
+               <ul>
+                  <li><p>Get Help</p></li>
+                  <li><a href="">Helo Center</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">Privacy Policy</a></li>
+                  <li><a href="">Tearms</a></li>
+                  <li><a href="">Login</a></li>
+               </ul>
+            </div>
+            <div class="footer-sub-Container1 footer-sub-box">
+               <ul>
+                  <li><p>Link</p></li>
+                  <li><a href="">Countact-Us</a></li>
+                  <li><a href="">Payment</a></li>
+                  <li><a href="">Delivery</a></li>
+                  <li><a href="">Return & Exchange</a></li>
+                  <li><a href="">Add to card</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer-subfooter">
+            <div style="display: flex;justify-content:space-between;margin-right: 30px;align-items: center; margin: 0px 50px;">
+               <div style="margin-bottom: 20px;">
+                  <span><h4 style="color: #ffffff;margin: 5px 10px;">SOCIAL MEDIA</h4></span>
+                  <img src="./assets/img/Screenshot 2024-04-28 172659.png" alt="" width="300px">
+               </div>
+               <div>
+                  <span><h4 style="color: #ffffff;margin: 5px 0px;">100% SECURE PAYMENT</h4></span>
+                  <img src="./assets/img/Frame-payment -1.jpg" alt="" width="500px" style="margin-bottom: 20px;">
+               </div>
+            </div>
+            <center><h4 class="Copyrigth">Copyrigthzedio@2024.All rigths reserved</h4> </center> 
+         </div>
+      </footer>
+      </body>
+</html>

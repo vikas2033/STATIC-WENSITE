@@ -1,0 +1,63 @@
+[
+    {
+       "name": "Midnight Blue Chinos ",
+       "image": "./assets/img/bottomwear/product1.jpg",
+       "description":"Chino Pant",
+       "price": "584.00"
+    },
+    {
+       "name": "Midnight Black Chinos",
+       "image": "./assets/img/bottomwear/product2.jpg",
+       "description":"Chino Pant",
+       "price": "598.00"
+    },
+    {
+       
+       "name": "Black Cut and Sew",
+       "image": "./assets/img/bottomwear/product3.jpg",
+       "description":"Cargo Pant",
+       "price": "850.00"
+    },
+    {
+       
+       "name": "Stone Sky Blue",
+       "image": "./assets/img/bottomwear/product4.jpg",
+       "description":"Cargo Pant",
+       "price": "690.00"
+    },
+    {
+       "name": "Black Cargo",
+       "image": "./assets/img/bottomwear/product5.jpg",
+       "description":"Cargo Pant",
+       "price": "730.00"
+    },
+    {
+       "name": "True Blue Baggy",
+       "image": "./assets/img/bottomwear/product6.jpg",
+       "description":"Denim Pant",
+       "price": "1200.00"
+    },
+    {
+       "name": "Shadow Grey Regular",
+       "image": "./assets/img/bottomwear/product7.jpg",
+       "description":"Denim Pant",
+       "price": "780.00"
+    },
+    {
+       "name": "True Blue Regular",
+       "image": "./assets/img/bottomwear/product8.jpg",
+       "description":"Denim Pant",
+       "price": "850.00"
+    },
+    {
+       "name": "Black Fade Raw Washed",
+       "image": "./assets/img/bottomwear/product9.jpg",
+       "description":"Denim Pant",
+       "price": "750.00"
+    },
+    {
+       "name": "Green Chino Shorts",
+       "image": "./assets/img/bottomwear/product10.jpg",
+       "price": "350.00"
+    }
+ ]

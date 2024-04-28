@@ -1,0 +1,64 @@
+
+.footerBody{
+    background-color: black;
+    margin-top:  20px ;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+    width: 1200px;
+}
+.footer-sub-box{
+    margin: 35px 40px;
+}
+
+.footer-sub-Container1 ul li p,
+.footer-sub-Container2 ul li p,
+.footer-sub-Container3 ul li p,
+.footer-sub-Container4 ul li p
+{
+    font-size: 25px;
+    color: rgb(2, 107, 193);
+    display:block;
+    border-left: 3px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.footer-sub-Container1 ul li,
+.footer-sub-Container2 ul li,
+.footer-sub-Container3 ul li,
+.footer-sub-Container4 ul li{
+    margin: 30px,0px,30px,0px;
+    padding-bottom: 10px;
+}
+.footer-sub-Container1 ul li a,
+.footer-sub-Container2 ul li a,
+.footer-sub-Container3 ul li a,
+.footer-sub-Container4 ul li a
+{
+    color: rgb(255, 255, 255);
+    margin: 30px,0px,30px,0px;
+}
+
+:is(.footer-sub-Container1 ul li a,
+.footer-sub-Container2 ul li a,
+.footer-sub-Container3 ul li a,
+.footer-sub-Container4 ul li a):hover{
+    color: rgb(2, 107, 193);
+}
+
+.Copyrigth{
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-left: 60px;
+    background-color: rgb(0, 0, 0);
+}
+
